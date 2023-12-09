@@ -60,7 +60,6 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     """Send a message when the command /help is issued."""
     text = (f'/start - to start or reboot the bot\n'
             f'/zen - for remember design principles and programming philosophy in Python.\n'
-            f'/report - today\'s report from luxeprofit\n'
             f'\nmy useful links 🔭')
     keyboard_inline = [
         [
