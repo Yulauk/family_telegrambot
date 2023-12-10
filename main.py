@@ -71,8 +71,6 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 
     reply_markup_inline = InlineKeyboardMarkup(keyboard_inline)
     await update.message.reply_text(text, reply_markup=reply_markup_inline)
-    # await update.message.reply_html("Help!"+'<b>bold</b>')
-    # await update.message.reply_text('*Help2*', parse_mode='MarkdownV2')
 
 
 async def button(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
